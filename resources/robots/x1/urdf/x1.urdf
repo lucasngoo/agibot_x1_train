@@ -147,7 +147,7 @@
   </link>
   <joint
     name="lumber_roll_joint"
-    type="revolute">
+    type="fixed">
     <origin
       xyz="0 0 0.0405"
       rpy="1.57079632679491 0 -1.5707963267949" />
@@ -205,7 +205,7 @@
   </link>
   <joint
     name="lumber_pitch_joint"
-    type="revolute">
+    type="fixed">
     <origin
       xyz="0 0 0"
       rpy="0 1.5707963267949 0" />
