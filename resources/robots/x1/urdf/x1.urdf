@@ -100,8 +100,8 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="-3.14"
-      upper="3.14"
+      lower="-0.8"
+      upper="0.8"
       effort="0"
       velocity="0" />
   </joint>
@@ -205,7 +205,7 @@
   </link>
   <joint
     name="lumber_pitch_joint"
-    type="fixed">
+    type="revolute">
     <origin
       xyz="0 0 0"
       rpy="0 1.5707963267949 0" />
@@ -216,8 +216,8 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="-3.14"
-      upper="3.14"
+      lower="0.0"
+      upper="0.2"
       effort="0"
       velocity="0" />
   </joint>
@@ -274,8 +274,8 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="-3.14"
-      upper="3.14"
+      lower="-2.2"
+      upper="0.0"
       effort="0"
       velocity="0" />
   </joint>
@@ -332,7 +332,7 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="-3.14"
+      lower="-2.3"
       upper="0.0"
       effort="0"
       velocity="0" />
@@ -390,8 +390,8 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="-3.14"
-      upper="3.14"
+      lower="-0.5"
+      upper="0.5"
       effort="0"
       velocity="0" />
   </joint>
@@ -506,8 +506,8 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="-3.14"
-      upper="3.14"
+      lower="-0.8"
+      upper="0.8"
       effort="0"
       velocity="0" />
   </joint>
@@ -564,8 +564,8 @@
     <axis
       xyz="-1 0 0" />
     <limit
-      lower="-3.14"
-      upper="3.14"
+      lower="0.0"
+      upper="0.0"
       effort="0"
       velocity="0" />
   </joint>
@@ -625,8 +625,8 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="-3.14"
-      upper="3.14"
+      lower="-2.2"
+      upper="0.0"
       effort="0"
       velocity="0" />
   </joint>
@@ -684,7 +684,7 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="-3.14"
+      lower="-2.3"
       upper="0.0"
       effort="0"
       velocity="0" />
@@ -743,8 +743,8 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="-3.14"
-      upper="3.14"
+      lower="-0.5"
+      upper="0.5"
       effort="0"
       velocity="0" />
   </joint>
@@ -860,8 +860,8 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="-3.14"
-      upper="3.14"
+      lower="-0.8"
+      upper="0.8"
       effort="0"
       velocity="0" />
   </joint>
@@ -918,8 +918,8 @@
     <axis
       xyz="1 0 0" />
     <limit
-      lower="-3.14"
-      upper="3.14"
+      lower="0.0"
+      upper="0.0"
       effort="0"
       velocity="0" />
   </joint>
